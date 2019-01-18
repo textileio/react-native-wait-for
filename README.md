@@ -2,7 +2,7 @@
 
 ## Install
 
-`npm install \@textile/textile/react-native-wait-for`
+`npm install @textile/textile/react-native-wait-for`
 
 ## Example
 
