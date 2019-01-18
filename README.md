@@ -1,8 +1,8 @@
 # react-native-wait-for
 
-## Install
+## Getting started
 
-`npm install @textile/textile/react-native-wait-for`
+`$ npm install @textile/react-native-wait-for --save`
 
 ## Example
 
