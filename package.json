@@ -1,0 +1,24 @@
+{
+  "name": "@textile/react-native-wait-for",
+  "version": "1.0.0",
+  "description": "Provides a waitFor select redux saga effect",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "files": [
+    "dist/index.js",
+    "dist/index.js.map",
+    "dist/index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "textile.io",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "redux-saga": "^0.16.1"
+  }
+}
