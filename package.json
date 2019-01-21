@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Provides a waitFor select redux saga effect",
   "main": "dist/index.js",
-  "types" : "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/index.js",
     "dist/index.js.map",
@@ -11,14 +11,29 @@
   ],
   "scripts": {
     "build": "tsc",
+    "lint": "tslint -c tslint.json --project .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "textile.io",
   "license": "MIT",
   "devDependencies": {
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "tslint-react": "^3.6.0",
     "typescript": "^3.2.2"
   },
   "dependencies": {
     "redux-saga": "^0.16.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/textileio/react-native-wait-for.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textileio/react-native-wait-for/issues"
+  },
+  "homepage": "https://github.com/textileio/react-native-wait-for#readme"
 }
